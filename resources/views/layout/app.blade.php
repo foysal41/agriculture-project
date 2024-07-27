@@ -20,17 +20,7 @@
 
 
 @yield('content')
-
-
-
-
-
-
-
-
-
-
-
+@yield('about-content')
 
 
 

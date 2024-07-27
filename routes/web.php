@@ -9,3 +9,5 @@ Route::get('/', function () {
 });
 
 Route::get('/home' , [HomeController::class, 'page']);
+
+Route::get('/about' , [AboutController::class, 'aboutpage']);
