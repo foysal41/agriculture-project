@@ -1,0 +1,83 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background: linear-gradient(180deg,#c4b6fd,#9DACE7 );
+    margin-top: -80px;
+}
+
+.navbar-brand,
+.text-primary{
+    color: #425DA9 !important;
+}
+
+.nav-link{
+    font-weight: 500;
+}
+
+.btn-primary{
+    background-color:#425DA9 !important;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #fff !important;
+    transition: 0.85s;
+    color: #425DA9 !important;
+}
+
+.nav-link:hover{
+    color: #425DA9 !important;
+
+}
+
+p{
+    font-size: 18px;
+
+}
+
+.blue-bg{
+    background-color: #425DA9 !important;
+    color: #fff;
+}
+
+.text-primary{
+    color: #257dfd;
+}
+
+/*For Key Feratures*/
+.icons{
+    height: 32px;
+    width: 32px;
+    margin-bottom: 16px;
+    color: #0350AF;
+    background-color: #EBEEF1;
+    padding: 6px;
+}
+
+/* Product Section */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+   border: none !important;
+   background-color: #094499;
+   color: white;
+   
+
+}
+
+.nav-tabs{
+    border: none !important;
+
+}
+
+
+
+@media (max-width: 768px) {
+    .about h2 {
+        text-align: center;
+        
+    }
+    .about p {
+        text-align: justify;
+        
+    }
+}
