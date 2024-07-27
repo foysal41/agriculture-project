@@ -21,8 +21,9 @@
 
 @yield('content')
 @yield('about-content')
+@yield('contact-form')
 
-
+@include('layout.footer')
 
 
 

@@ -3,7 +3,7 @@
     <section class="container py-5 mt-5 about ">
         <div class="row g-5">
             <div class="col-12 col-lg-5">
-                <img src="assets/img-1.webp" alt="" class="img-fluid ms-auto d-block">
+                <img src="{{asset('assets/img-1.webp')}}" alt="" class="img-fluid ms-auto d-block">
             </div>
 
             <div class="col-12 col-lg-7">

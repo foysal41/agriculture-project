@@ -2,7 +2,7 @@
 <header>
     <section>
         <div class="container ">
-            <div class="row align-items-center justify-content-center">
+            <div class="row align-items-center justify-content-center hero ">
                 <div class="col-12 col-lg-6">
                     <h1 class="display-4 fw-bold mt-4"> <span class="text-primary">Discover</span> The Future of Tech</h1>
                     <p class="lead">
@@ -14,7 +14,7 @@
                     
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img src="assets/hero.webp" alt="tech gear vr headset" class="img-fluid mt-5">
+                    <img src="{{ asset('assets/hero.webp')}}" alt="tech gear vr headset" class="img-fluid mt-5">
                 </div>
             </div>
         </div>

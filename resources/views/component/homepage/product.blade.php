@@ -23,15 +23,15 @@
                     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                         <div class="row mt-4 g-4">
                             <div class="col-12 col-lg-4">
-                                <img src="assets/headphones-1.webp" class="img-fluid mx-auto d-block" alt="">
+                                <img src="{{ asset('assets/headphones-1.webp')}}" class="img-fluid mx-auto d-block" alt="">
                             </div>
 
                             <div class="col-12 col-lg-4">
-                                <img src="assets/vr-1.webp" class="img-fluid mx-auto d-block" alt="">
+                                <img src="{{ asset('assets/vr-1.webp')}}" class="img-fluid mx-auto d-block" alt="">
                             </div>
 
                             <div class="col-12 col-lg-4">
-                                <img src="assets/vr-2.webp " class="img-fluid mx-auto d-block" alt="">
+                                <img src="{{ asset('assets/vr-2.webp')}} " class="img-fluid mx-auto d-block" alt="">
                             </div>
                         </div>
                    </div>

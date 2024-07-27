@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About</title>
-</head>
-<body>
+
     <div class="container">
         <div class="row g-5 mb-5">
             <div class="col-12 col-lg-5">
-                <img src="assets/img-1.webp" alt="" class="img-fluid ms-auto d-block">
+                <img src="{{ asset('assets/img-1.webp')}}" alt="" class="img-fluid ms-auto d-block">
             </div>
 
             <div class="col-12 col-lg-7">
@@ -60,7 +52,35 @@
                 </div>
             </div>
         </div>
-    </div>
 
-</body>
-</html>
+        <h2 class="section-title mt-5 text-center">WHO WE ARE</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{ asset('assets/who-we-are-1.webp')}}" class="card-img-top" alt="History of Tate">
+                    <div class="card-body">
+                        <h5 class="card-title">History of Tate</h5>
+                        <p class="card-text">Find out about the history of our four galleries and the people behind it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{ asset('assets/who-we-are-2.webp')}}" class="card-img-top" alt="Our commitment to race equality">
+                    <div class="card-body">
+                        <h5 class="card-title">Our commitment to race equality</h5>
+                        <p class="card-text">Tate's commitment to combat racism in our own organisation and in society at large.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{ asset('assets/who-we-are-3.webp')}}" class="card-img-top" alt="Access to Information">
+                    <div class="card-body">
+                        <h5 class="card-title">Access to Information</h5>
+                        <p class="card-text">Find out how we can help when seeking information about Tate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

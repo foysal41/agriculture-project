@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container">
 
-    <a class="navbar-brand fw-bold fs-2" href="#">Techgears</a>
+    <a class="navbar-brand fw-bold fs-2" href="#">Foysal Jaman</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -14,10 +14,10 @@
           <a class="nav-link fs-5" href="{{url('about')}}">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link fs-5" href="#">Products</a>
+            <a class="nav-link fs-5" href="#">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-primary text-white px-4 py-2 ms-2 " href="#">Contact</a>
+            <a class="nav-link btn btn-primary text-white px-4 py-2 ms-2 " href="{{url('contact')}}">Contact</a>
           </li>
   
     </div>

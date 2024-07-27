@@ -6,6 +6,9 @@ header{
     background: linear-gradient(180deg,#c4b6fd,#9DACE7 );
     margin-top: -80px;
 }
+.hero{
+    padding-top: 40px;
+}
 
 .navbar-brand,
 .text-primary{
@@ -70,6 +73,8 @@ p{
 }
 
 
+
+
 /*---------------- About page --------------------- */
 .info-card {
     background: #f8f9fa;
@@ -93,6 +98,118 @@ p{
     margin-bottom: 20px;
 }
 
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 1rem;
+}
+.section-title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+/* ---------------- Footer ---------------- */
+
+.footer {
+    background-color: #6a4a8f;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .form-control {
+    border-radius: 50px;
+}
+.footer .social-icons a {
+    margin-right: 15px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.footer .social-icons a:hover {
+    color: #ccc;
+}
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.footer img{
+    height: 150px;
+}
+
+/* ---------------- Contact ---------------- */
+
+.contact-section {
+    background: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+}
+.contact-section h2 {
+    color: #425DA9;
+    margin-bottom: 20px;
+}
+.contact-section p {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.contact-section .features {
+    margin-bottom: 30px;
+}
+.contact-section .features .feature {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.contact-section .features .feature i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.contact-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-info p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+.contact-info i {
+    margin-right: 10px;
+}
+.contact-form .form-control {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.contact-form .btn {
+    background: #cc2062;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.social-icons a {
+    color: #333;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+.social-icons a:hover {
+    color: #cc2062;
+}
 
 
 @media (max-width: 768px) {
@@ -103,5 +220,14 @@ p{
     .about p {
         text-align: justify;
         
+    }
+    .hero{
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero{
+        padding-top: 80px;
     }
 }

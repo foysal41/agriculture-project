@@ -1,7 +1,5 @@
 <?php
-
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\AboutController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -10,4 +8,6 @@ Route::get('/', function () {
 
 Route::get('/home' , [HomeController::class, 'page']);
 
-Route::get('/about' , [AboutController::class, 'aboutpage']);
+Route::get('/about' , [HomeController::class, 'aboutpage']);
+
+Route::get('/contact', [HomeController::class, 'contactpage']);
